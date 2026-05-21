@@ -1,6 +1,9 @@
 # Jels International Car Dealership 
 
-This web application was developed as the final Capstone Project for the **IBM Full Stack / Cloud Developer Professional Certificate**. The platform acts as a centralized review portal for **Jels International**, a fictional nationwide car dealership network, allowing users to browse dealership locations by state, view localized reviews, and submit their own customer feedback.
+This web application was developed as the final Capstone Project for the **IBM Full Stack / Cloud Developer Professional Certificate**. 
+
+
+The platform acts as a centralized review portal for **Jels International**, a fictional nationwide car dealership network, allowing users to browse dealership locations by state, view localized reviews, and submit their own customer feedback.
 
 The project showcases a modern, containerized microservices architecture combining Python (Django), JavaScript (React, Node.js), and cloud-native integrations.
 
@@ -10,9 +13,19 @@ The project showcases a modern, containerized microservices architecture combini
 
 The system is split into loosely coupled microservices interacting via REST APIs:
 
-1. **Jels International Frontend & Gateway (Django & React):** The central hub managing user authentication (SQLite), car makes/models catalog, and serving as the proxy layer to fetch data from backend microservices.
-2. **Dealerships & Reviews Service (Node.js/Express):** Handles CRUD operations for Jels International dealer profiles and review records stored in a **MongoDB** instance.
-3. **Sentiment Analyzer (Python Flask / IBM Watson NLU):** Deployed on **IBM Cloud Code Engine**. It processes raw user review text and classifies the sentiment into `positive`, `neutral`, or `negative`.
+1. **Jels International Frontend & Gateway (Django & React):**
+2.
+3. The central hub managing user authentication (SQLite), car makes/models catalog, and serving as the proxy layer to fetch data from backend microservices.
+4.
+5.  **Dealerships & Reviews Service (Node.js/Express):**
+6.
+7. Handles CRUD operations for Jels International dealer profiles and review records stored in a **MongoDB** instance.
+8.
+9.  **Sentiment Analyzer (Python Flask / IBM Watson NLU):**
+10.
+11.  Deployed on **IBM Cloud Code Engine**.
+12.
+13.  It processes raw user review text and classifies the sentiment into `positive`, `neutral`, or `negative`.
 
 ---
 
